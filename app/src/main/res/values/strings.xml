@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Cleaner</string>
+
+
+    <string name="title_section1">Images</string>
+    <string name="title_section2">Audio</string>
+    <string name="title_section3">Video</string>
+    <string name="title_section4">Voice</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_whatsapp">WhatsApp</string>
+    <string name="action_select">Select</string>
+    <string name="action_sort_by">Sort By...</string>
+    <string name="action_sort_by_none">None</string>
+    <string name="action_sort_by_name_asc">Name(A-Z)</string>
+    <string name="action_sort_by_name_dsc">Name(Z-A)</string>
+    <string name="action_sort_by_size_asc">Size(0-9)</string>
+    <string name="action_sort_by_size_dsc">Size(9-0)</string>
+    <string name="action_sort_by_date_asc">Date(0-9)</string>
+    <string name="action_sort_by_date_dsc">Date(9-0)</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share_this_app">Share this app</string>
+    <string name="action_about_us">About Us</string>
+    <string name="action_help">Help</string>
+    <string name="action_share">Share</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_move_to_sdcard">Move to Sdcard</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_unselect_all">Unselect All</string>
+    <string name="action_add_to_playlist">Add to playlist</string>
+    <string name="action_play">Play</string>
+    <string name="action_open">Open</string>
+    <string name="action_detail">Detail</string>
+    <string name="rate_us">Feedback</string>
+    <string name="action_storage_details">Storage Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- About Us Page -->
+    <string name="about_us_title">Nad Innovation</string>
+    <string name="about_us_text">We are a group of friends where we develop basic utility application which we found useful for us and believe that they will be of great use to others.</string>
+
+    <string-array name="appName">
+        <item> DS WhatsApp Cleaner</item>
+        <item> DS Youtube Downloader</item>
+        <item> DS Phone Explorer </item>
+        <item> DS Share Apps</item>
+        <item> DS App Manager</item>
+        <item> 4 Pics 1 Word Answers</item>
+        <item> Notification Hider </item>
+    </string-array>
+    <string-array name="appIcon">
+        <item>@mipmap/whatsappcleaner</item>
+        <item>@drawable/downloader</item>
+        <item>@drawable/phoneexplorer</item>
+        <item>@drawable/shareapp</item>
+        <item>@drawable/appmanager</item>
+        <item>@drawable/fourpicsoonewords</item>
+        <item>@drawable/notificationhider</item>
+    </string-array>
+    <string-array name="appdescription">
+        <item>Manage and share WhatsApp Sent/received files, perform operation like share/delete/rename etc on multiple files simultaneously.</item>
+        <item>Download any Shareable/Exportable videos in desire format, and play/share these video with advance GUI.</item>
+        <item>Search Apps/Contacts/Music/Video in easy way, with advance features, have floating icon.</item>
+        <item>Share Apps with your friends, No need to download again-again.</item>
+        <item>Manage Multiple apps in single click.</item>
+        <item>Get 100% correct answer for Pics Puzzle.</item>
+        <item>Hide WhatsApp,Facebook,Hike etc social networking apps notification in just 1 click.</item>
+    </string-array>
+
+    <!-- Ads IDs -->
+    <string name="Interstitial_ad_ad_unit_id">ca-app-pub-3975452735536251/1678680321</string>
+    <string name="banner_in_apps_ad_unit_id">ca-app-pub-3975452735536251/7725213925</string>
+    <string name="banner_in_other_then_apps_ad_unit_id">ca-app-pub-3975452735536251/7725213925</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_manage_space">DS Downloader</string>
+</resources>

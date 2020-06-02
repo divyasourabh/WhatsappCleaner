@@ -1,0 +1,75 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_whatsapp"
+        android:orderInCategory="100"
+        android:title="@string/action_whatsapp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_select"
+        android:orderInCategory="100"
+        android:title="@string/action_select"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_by"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_by"
+        app:showAsAction="never">
+        <menu>
+            <group
+                android:id="@+id/sort_by_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_sort_by_none"
+                    android:title="@string/action_sort_by_none"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/action_sort_by_name_asc"
+                    android:checked="true"
+                    android:title="@string/action_sort_by_name_asc" />
+                <item
+                    android:id="@+id/action_sort_by_name_dsc"
+                    android:title="@string/action_sort_by_name_dsc" />
+                <item
+                    android:id="@+id/action_sort_by_size_asc"
+                    android:title="@string/action_sort_by_size_asc" />
+                <item
+                    android:id="@+id/action_sort_by_size_dsc"
+                    android:title="@string/action_sort_by_size_dsc" />
+                <item
+                    android:id="@+id/action_sort_by_date_asc"
+                    android:title="@string/action_sort_by_date_asc" />
+                <item
+                    android:id="@+id/action_sort_by_date_dsc"
+                    android:title="@string/action_sort_by_date_dsc" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_share_this_app"
+        android:orderInCategory="100"
+        android:title="@string/action_share_this_app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="100"
+        android:title="@string/action_about_us"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"
+        app:showAsAction="never" />
+
+</menu>
